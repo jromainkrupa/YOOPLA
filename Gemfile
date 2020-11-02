@@ -25,7 +25,7 @@ gem 'postmark-rails'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 gem 'devise-token_authenticatable'
-gem 'letter_opener', group: :development
+#gem 'letter_opener', group: :development
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
