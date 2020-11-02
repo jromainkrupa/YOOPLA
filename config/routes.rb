@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   root to: "pages#home"
   get '/thanks', to: "users#thanks"
   # get "users/new", to: "users#new"
-  resources :users, only: [:new, :create]
+  resources :users, only: [:new, :create, :show]
   post "users", to: "users#create"
 end
