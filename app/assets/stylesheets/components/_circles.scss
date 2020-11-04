@@ -1,53 +1,111 @@
 .circle {
-  border-radius: 100%
+  border-radius: 100%;
 }
 
 .blue {
   position: absolute;
   width: 80em;
   height: 80em;
+  left: 5em;
+  top: 5em;
+}
+.marker-start-blue {
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  position: absolute;
+  left: 0em;
+  top: 35em;
+  animation: rotate-bg-1 6s infinite linear forwards;
 }
 .white-one {
   position: relative;
-  width: 64em;
-  height: 64em;
-  top: 8em;
-  left:8em;
+  width: 60em;
+  height: 60em;
+  top: 10em;
+  left:10em;
   background-color:white;
 }
 .red {
   position: relative;
-  width: 62em;
-  height: 62em;
-  top: 4em;
-  left:4em;
+  width: 55em;
+  height: 55em;
+  top: 2.5em;
+  left:2.5em;
   background-color:#FF6583;
+}
+.marker-start-red {
+  background-color:#FF6583;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  position: absolute;
+  left: 12.5em;
+  top: 35em;
+  animation: rotate-bg-1 6s infinite linear forwards;
 }
 .white-two {
   position: relative;
-  width: 46em;
-  height: 46em;
-  top: 8em;
-  left:8em;
+  width: 35em;
+  height: 35em;
+  top: 10em;
+  left:10em;
   background-color:white;
 }
 .green {
   position: relative;
-  width: 44em;
-  height: 44em;
-  top: 4em;
-  left:4em;
-  background-color:#E6FFFA;
+  width: 30em;
+  height: 30em;
+  top: 2.5em;
+  left:2.5em;
+  background-color:#59EAD9;
+}
+.marker-start-green {
+  background-color:#59EAD9;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  position: absolute;
+  left: 25em;
+  top: 35em;
+  animation: rotate-bg-1 6s infinite linear forwards;
 }
 
 .white-three {
   position: relative;
-  width: 28em;
-  height: 28em;
-  top: 8em;
-  left:8em;
+  width: 10em;
+  height: 10em;
+  top: 10em;
+  left:10em;
   background-color:white;
 }
+.hider {
+  position: relative;
+  width: 80em;
+  height: 40em;
+  left:-35em;
+  top:-35em;
+  background-color: white;
+  border-radius: 40em 40em 0em 0em;
+  transform-origin: 40em 40em;
+  animation: rotate-bg-1 6s infinite linear forwards;
+}
+
+
+/* First animation moves 180 degrees in the first 2 seconds */
+@keyframes rotate-bg-1 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(90deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+
 //   .dials {
 //     animation: show-dials 5s infinite ease-out;
 //     width: 18em;
