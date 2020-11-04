@@ -1,7 +1,3 @@
-<!--
-  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-  Read the documentation to get started: https://tailwindui.com/documentation
--->
 <div class="relative bg-white overflow-hidden">
   <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
     <nav class="relative max-w-screen-xl mx-auto flex items-center justify-between px-4 sm:px-6">
@@ -101,7 +97,7 @@
           </div>
         </div>
         <div class="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-          <svg class="absolute inset-0 w-full h-full object-cover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1085" height="1085" viewBox="0 0 1085 1085">
+          <svg class="z-40  absolute bottom-auto w-full h-full object-cover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1085" height="1085" viewBox="0 0 1085 1085">
             <defs>
               <filter id="searchpng.com-iphone-xr-white-mockup-png-image-free-download" x="0" y="0" width="1085" height="1085" filterUnits="userSpaceOnUse">
                 <feOffset dx="10" dy="10" input="SourceAlpha"/>
@@ -118,6 +114,9 @@
               </g>
             </g>
           </svg>
+          <div class="absolute bottom-auto w-full h-full">
+            <%= render "shared/home_page_circles" %>
+          </div>
         </div>
       </div>
     </main>
@@ -129,6 +128,3 @@
 <div class="">
   <%= render "shared/main_features"%>
 </div>
-
-
-
