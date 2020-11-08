@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/method', to: 'pages#method'
   get '/pricing', to: 'pages#pricing'
   get '/company', to: 'pages#company'
+  get '/features', to: 'pages#features'
   # get 'users/new', to: 'users#new'
   resources :users, only: [:new, :create, :show]
   post 'users', to: 'users#create'
