@@ -2,12 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .feature-image {
-  height: 32em;
+  height: 24em;
+  transition: transform .2s;
+}
+.feature-image:hover {
+  transform: scale(1.5);
 }
 .gauge {
   left: 50%;
+  height: 98em;
 }
 .gauge-circle {
   border-radius: 50%;
   transform: translate(-0.65em);
+}
+.gauge-wrapper {
+  transform: translateY(12em);
 }
