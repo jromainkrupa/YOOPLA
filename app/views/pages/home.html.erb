@@ -1,10 +1,11 @@
+
 <div class="relative bg-white overflow-hidden">
   <div class="relative pt-6 pb-16 md:pb-20 lg:pb-24 xl:pb-32">
     <%= render "shared/navbar" %>
     <main class="mt-8 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-20 xl:mt-24">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-          <div class="text-sm font-semibold uppercase tracking-wide text-gray-500 sm:text-base lg:text-sm xl:text-base">
+          <div class="text-sm font-semibold uppercase tracking-wide text-purblue-100 sm:text-base lg:text-sm xl:text-base">
             Coming soon
           </div>
           <h2 class="mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
@@ -47,13 +48,14 @@
   </div>
 </div>
 <div class="">
-  <%= render "shared/reassurance"%>
+  <%#= render "shared/reassurance"%>
 </div>
 <div class="">
   <%= render "shared/main_features"%>
 </div>
-<%= render "shared/line_horizontal_splitter"%>
-<div class="">
+<%= render "shared/method" %>
+<%= render "shared/features" %>
+<div class="pt-4">
   <%= render "shared/phil_explainer"%>
 </div>
 
