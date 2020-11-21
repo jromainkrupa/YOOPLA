@@ -1,10 +1,11 @@
 <div class="bg-purblue-500">
   <div class="max-w-screen-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
     <div class="flex flex-col items-center justify-center text-center">
-      <h1 class="text-base leading-6 font-semibold text-purblue-100 tracking-wide uppercase">The features to</h1>
-      <p class="mt-1 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">We help you quite smoking</p>
+      <h1 class="text-base leading-6 font-semibold text-purblue-100 tracking-wide uppercase"><%= t('features.header.sub_title') %></h1>
+      <p class="mt-1 text-4xl leading-10 font-extrabold text-white sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl"><%= t('features.header.title') %></p>
       <p class="max-w-xl mt-5 mx-auto text-xl leading-7 text-gray-100">
-      Every features we built are made to simplify the quiting process. We believe in simplicity, personnalization and collaborativity. They are our leitmotifs in building the best app for future non smokers.</p>
+        <%= t('features.header.made') %>
+      </p>
     </div>
   </div>
 </div>
@@ -19,8 +20,9 @@
 <div id="feature-one" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <%= image_tag("reduce_smoke_calendar.png", class:"mx-auto mt-4 md:mt-2 feature-image") %>
   <div class="bg-blue-100 rounded-xl p-4 max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Personal calendar</h3>
-    <p class="text-gray-900">Once we created your smoker profile you will have acess to your reduction calendar. Every day of your programm you will see your progression and achievements</p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.one.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.one.description') %>
   </div>
 </div>
 <div class="hidden md:block gauge-wrapper">
@@ -30,8 +32,9 @@
 <!-- feature 2 -->
 <div id="feature-two" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <div class="bg-red-100 rounded-xl p-2 max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Your daily program</h3>
-    <p class="text-gray-900">One page to rule them all. Every day, you can see how many cigarettes you smoked and can smoke. You able to see when Phil will be open or when your next cigarette should be. You really need one, right now ? Don't worry you can open Phil from there.</p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.two.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.two.description') %>
   </div>
   <%= image_tag("app_daily_program.png", class:"mx-auto feature-image") %>
 </div>
@@ -43,8 +46,9 @@
 <div id="feature-three" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <%= image_tag("app_smoking_statistics.png", class:"mx-auto feature-image") %>
   <div class="bg-pink-100 rounded-xl max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Statistics</h3>
-    <p class="text-gray-900">Track your performance. With the statistics you can what you have already accomplished. How many cigarettes you saved, how much money you spared, the health regain, the number of friends that support you...</p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.three.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.three.description') %>
   </div>
 </div>
 <div class="hidden md:block gauge-wrapper">
@@ -54,8 +58,9 @@
 <!-- feature 4 -->
 <div id="feature-four" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <div class="bg-purple-100 rounded-xl max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Collaboration</h3>
-    <p class="text-gray-900">All your friends, family and the yoopla team are behind you and here to support. You will receive dozens of support messages throughout your journey to help, guide and support you. </p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.four.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.four.description') %>
   </div>
   <%= image_tag("support_message.png", class:"mx-auto feature-image") %>
 </div>
@@ -67,8 +72,9 @@
 <div id="feature-five" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <%= image_tag("manual_cigarette_adjustment.png", class:"mx-auto feature-image") %>
   <div class="bg-green-100 rounded-xl max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Manual readjustment</h3>
-    <p class="text-gray-900">If you don't have Phil or I a friend asked you a cigarette, it doesn't impact you. You can manually readjust the number of cigarettes you smoke. If you don't have Phil this how you can keep track of your consumption.</p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.five.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.five.description') %>
   </div>
 </div>
 <div class="hidden md:block gauge-wrapper">
@@ -78,8 +84,9 @@
 <!-- feature 6 -->
 <div id="feature-four" class="md:grid md:grid-cols-2 md:gap-4 items-center justify-items-center text-center">
   <div class="bg-purple-100 rounded-xl max-w-sm mx-auto mt-4 md:mt-0 text-center">
-    <h3 class="text-purblue-500 text-xl ">Trophies</h3>
-    <p class="text-gray-900">Because what you are accomplishing is amazing, you deserve medals and trophies 🏆. Determination, Number of days in row where you outperform your program, Giver when you help a friend and so many others to maintain your motivitation and feel great about yourself. </p>
+    <h3 class="text-purblue-500 text-xl "><%= t('features.features.six.title') %></h3>
+    <p class="text-gray-900">
+      <%= t('features.features.six.description') %>
   </div>
   <%= image_tag("reduction_smoking_trophies.png", class:"mx-auto feature-image") %>
 </div>

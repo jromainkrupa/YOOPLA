@@ -1,6 +1,171 @@
+---
 fr:
-  home:
-    tagline_first_part: "Arrêter de fumer en"
-    tagline_span_part: "30 jours en réduisant"
-    tagline_last_part: "votre consommation"
+  navbar:
+    menu_links:
+      first: Méthode
+      second: Fonctionnalités
 
+  home:
+    coming_soon: Bientôt disponible
+    get_notified: Soyez notifié lorsque l'application est disponible!
+    notify_me: Inscription
+    tagline_first_part: Arrêter de fumer en
+    tagline_last_part: votre consommation
+    tagline_span_part: 30 jours en réduisant
+    undertagline: Yoopla aide les fumeurs à diminuer leurs consommation de cigarettes
+      tout en douceur grâce à un programme personnalisé, fun et collaboratif.
+
+  footer:
+    group_one:
+      links:
+        first: Solutions
+        second: Method
+        third: Features
+    group_two:
+      links:
+        first: Support
+        second: ""
+        third: ""
+    group_third:
+      links:
+        first: Company
+        second: About
+    group_four:
+      links:
+        first: Legal
+        fourth: Terms
+        second: Claim
+        third: Privacy
+
+  main_features:
+    amazing_product: Nous construisons une méthode unique pour arrêter de fumer
+      sans stress. Vous allez progressivement réduire votre consommation tout en
+      étant aidé par vos proches, vos amis et notre équipe.
+    dedicated: Un programme personnalisé en
+    span_steps: 3 étapes
+    proven: pour serainement arrêter de fumer.
+    qualities: Simple, sans stress et collaboratif
+    link: Découvrir les fonctionnalités
+
+    feature_one:
+      description: "Le voyage commence par définir votre profile de fumeur afin
+        de mieux vous accompagner: votre consommation, vos cigarettes preférees, les
+        déclencheurs, vos motivations et votre date d'arrêt idéale. Vous choisirez ensuite vos
+        supporters: famille, amis, collègues de travails.
+        Nous pourrons créer pour vous un programme de réduction personnalisé adapté à votre profil."
+      sub_title: Personnalisation
+      title: Un programme de réduction personalisé
+    feature_two:
+      description: "Chaque jours, semaines, en fonction de votre profil, réduisez
+      progressivement votre consommation de cigarettes.
+      Grâce à l'application et Phil le boitier de cigarettes connecté, vous pouvez monitorer
+      votre consommation. Phil sera là pour vous auto-reguler, mais pouvez bien entendu utiliser vos propres paquets
+      contenant préalablement le bon nombre de cigarettes pour la journée.
+      Accédez à de nombreux conseils, statistique et recevez des messages de soutien de vos proches.
+      C'est simple, fun et respecte vos envies. \U0001F605"
+      sub_title: Durant le programme
+      title: Diminution progressive sans stress
+    feature_three:
+      description: "Vous arrivez à la fin de programme ? Fantastique et bravo vous êtes libéré \U0001F973 !
+        Vous continuerez de recevoir nos conseils et accès complet à vos statistiques. Mais
+        vous pourrez aussi aidez d'autres personnes désirant eux aussi de sauter le pas en
+        étant leur mentor. Vous pourrez accompagner et soutenir 3 autres yoopler commencant leur programme."
+      sub_title: Mentorat
+      title: Aidez la communauté à arrêter aussi
+
+  features:
+    header:
+      made: "Chaque fonctionnalité est conçue avec 3 pilliers: simplifier votre experience, la rendre
+      collaborative, plus personnalisé."
+      sub_title: Les fonctionnalités
+      title: On vous aide à arrêter de fumer
+    features:
+      one:
+        description: "Après avoir créer votre profil fumeur, vous aurez accès à votre calendrier
+        de réduction. Chaque jour, vous pourrez avoir une vue globale de votre progression."
+        title: Un calendrier de reduction personnalisé
+      two:
+        description: "Chaque jour ayez un oeil sur votre consommation, combien de cigarettes
+        maximum vous pouvez fumer, quand sera votre prochaine cigarette... Phil est fermé
+        et vous en voulez vraiment une ? Ne vous inquitez pas, on a creer un bouton d'ouverture
+        manuel."
+        title: Une vision sur votre consommation quotidienne
+      three:
+        description: "Mesurez votre performance. Avec vos statistiques, vous avez une mesure
+        chiffrée de votre progression."
+        title: Vos statistiques
+      four:
+        description: "Tous vos amis, votre famille, vos proches et notre équipe sont derrière vous pour cette
+        épreuve. Vous recevrez de nombreux messages de soutien et de support."
+        title: Collaboration
+      five:
+        description: "Si vous n'avez pas Phil ou qu'un ami vous demande une cigarette. Vous pouvez
+        manuellement ajuster le nombre de cigarettes fumées."
+        title: Ajustement manuel
+      six:
+        description: "Car ce vous accomplissez est incoyable, vous méritez des médailles et trophées \U0001F3C6. Determination, Number of days in row where you"
+        title: Trophées
+
+  method:
+    header:
+      design_with: 'Un programme créer pour vous par des professionnels'
+      design_with_br: ""
+      how: Comment ça marche ?
+      what: Une app, un boitier connecté, votre motivation.
+
+    steps:
+      one:
+        description: Déterminons ensemble quel type de fumeur vous êtes. Votre niveau de
+          dépendance, vos habitudes, tout ce qui influence votre consommation en positif ou négatif.
+        sub_title: étape 1
+        title: Définition de votre profile fumeur
+      two:
+        description: "Arrêter de fumer est suffisament difficile pour ne pas le faire seul.
+          Vous pouvez selectionner des supporters durant le programme: amis, famille, membre de la communauté...
+          Vous recevrez des messages de support et de nombreuses fonctionnalités."
+        sub_title: étape 2
+        title: Les supporters
+      three:
+        description: "Nous proposons de nombreuses options pour aider à vaincre vos envies:
+                du yoga, de la méditation, des jeux, des astuces.
+                Durant votre programme vous aurez accès à des trophées ainsi qu'a une cagnotte constituée
+                par vos amis, accessible à la fin du programme."
+        sub_title: étape 3
+        title: Motivation et substitus
+      four:
+        description: "Tout est prêt, choisissez une date d'arrêt et notre algorithme va constituer
+                votre programme rien que pour vous. Votre calendrier vous permettra d'anticiper les paliers de réduction."
+        sub_title: étape 4
+        title: "C'est parti \U0001F680"
+      five:
+        description: "Super facile, attrapez Phil ou votre paquet du jour et laisser vous guidez.
+        Phil et l'application vous dirons combien de cigarettes (maximum \U0001F601) et quand fumer idéalement."
+        sub_title: étape 5
+        title: " Votre premier jour \U0001F973"
+      six:
+        description: "Durant le programme accèder à vos statistiques, vos trophées, vos messages...
+                Le programme est bien entendu adaptatif, si vous pensez faire une tentative un peu plus tôt ou vous lancer
+                un challenge c'est parfaitement possible."
+        sub_title: étape 6
+        title: Au quotidien
+      seven:
+        description: "Félicitation, vous avez arrêter de fumer ! Pour maintenir vos habitudes
+                et ne surtout pas replonger, nous continuons de vous accompagner."
+        sub_title: étape 7
+        title: Support continu
+      eight:
+        description: "Nous sommes persuadé qu'aider d'autres fumeurs à arrêter est une étape
+                dans votre nouvelle vie de non fumeur. Vous pourrez choisir d'aider 3 Yooplers en les accompagnant,
+                supportant, suivant leur progrès..."
+        sub_title: étape 8
+        title: "Devenez un mentor \U0001F920"
+
+  phil_explainer:
+    header:
+      description: "Phil le boitier connecté vous donnera l'expérience ultime de réduction.
+      C'est super simple, Phil connait votre programme par coeur, il va monitorer votre consommation:
+      le nombre maximum de cigarettes que pouvez fumer, se ferme et s'ouvre en fonction de la durée idéale entre cahque
+      cigarettes."
+      link: Découvrez Phil
+      sub_title: Votre coach
+      title: Phil le boitier de cigarette connecté
