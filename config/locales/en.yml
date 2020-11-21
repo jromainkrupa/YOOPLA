@@ -1,33 +1,184 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
+---
 en:
-  hello: "Hello world"
+  navbar:
+    menu_links:
+      first: Method
+      second: Features
+
+  footer:
+    group_four:
+      links:
+        first: Legal
+        fourth: Terms
+        second: Claim
+        third: Privacy
+    group_one:
+      links:
+        first: Solutions
+        second: Method
+        third: Features
+    group_third:
+      links:
+        first: Company
+        second: About
+        third: ''
+    group_three:
+      links:
+        first: First
+        second: Second
+    group_two:
+      links:
+        first: Support
+        second: ''
+        third: ''
+
+  home:
+    coming_soon: coming soon
+    get_notified: Sign up to get notified when it’s ready.
+    notify_me: Notify Me
+    tagline_first_part: Quit smoking in
+    tagline_last_part: your consumption
+    tagline_span_part: 30 days by reducing
+    undertagline: Yoopla helps smokers to smoothly quit their habit thanks to a personalized
+      and collaborative program to reduce their consumption.
+
+  features:
+    features:
+      five:
+        description: If you don't have Phil or I a friend asked you a cigarette, it
+          doesn't impact you. You can manually readjust the number of cigarettes you
+          smoke. If you don't have Phil this how you can keep track of your consumption.
+        title: Manual readjustment
+      four:
+        description: 'All your friends, family and the yoopla team are behind you
+          and here to support. You will receive dozens of support messages throughout
+          your journey to help, guide and support you. '
+        title: Collaboration
+      one:
+        description: Once we created your smoker profile you will have acess to your
+          reduction calendar. Every day of your programm you will see your progression
+          and achievements
+        title: Personal calendar
+      six:
+        description: "Because what you are accomplishing is amazing, you deserve medals
+          and trophies \U0001F3C6. Determination, Number of days in row where you
+          outperform your program, Giver when you help a friend and so many others
+          to maintain your motivitation and feel great about yourself."
+        title: Trophies
+      three:
+        description: Track your performance. With the statistics you can what you
+          have already accomplished. How many cigarettes you saved, how much money
+          you spared, the health regain, the number of friends that support you...
+        title: Statistics
+      two:
+        description: One page to rule them all. Every day, you can see how many cigarettes
+          you smoked and can smoke. You able to see when Phil will be open or when
+          your next cigarette should be. You really need one, right now ? Don't worry
+          you can open Phil from there.
+        title: Your daily program
+    header:
+      made: Every features we built are made to simplify the quiting process. We believe
+        in simplicity, personnalization and collaborativity. They are our leitmotifs
+        in building the best app for future non smokers.
+      sub_title: The features
+      title: We help you quite smoking
+
+  main_features:
+    amazing_product: We built an amazing tool to avoid the stress of quiting. You
+      will progressively reduce your consumption and be coached in your journey by
+      friends, family and our team of experts.
+    dedicated: A dedicated
+    feature_one:
+      description: We start by defining your smoker profile to develop an understanding
+        of your daily habits. The next step is to establish your support system along
+        the journey, for example, your partner, best friend, or colleague. Yoopla
+        creates your personalized and collaborative reduction program, which is supported
+        by Tobacco Treatment Specialists
+      sub_title: step Personalization
+      title: Personalized reducing Programm
+    feature_three:
+      description: "You managed to successfully quite after the 30 days, that's amazing
+        \U0001F973 ! Now you can help yourself by helping others in their journey
+        of quiting. Be a mentor of the community."
+      sub_title: Mentoring
+      title: Help yourself and the community
+    feature_two:
+      description: "Accordingly to your smoker profile. You will reduce every day
+        your consumption guided by the app and Phil the connected case. Phil will
+        deliver you the right amont of cigarettes at the right moment of th eday.
+        It's simple, easy and fun. And don't worry if Phil is close there is an emergency
+        button \U0001F605"
+      sub_title: The programm
+      title: The day to day reduction.
+    link: Discover all the features
+    proven: proven program to release all the stress of quiting.
+    qualities: Smooth, stresslless and collaborative
+    span_steps: 3 steps
+
+  method:
+    header:
+      design_with: 'Our program designed with tabacologist is a 3 steps program:'
+      design_with_br: personalization, 30 days reduction, and mentoring.
+      how: How does it works?
+      what: A smooth, personalized, collaborative method.
+    steps:
+      eight:
+        description: We believe that supporting other smokers through their cessation
+          program is an important step in one’s own formation of a tobacco-free life.
+          The user will therefore be able to support 3 “future non-smokers” from the
+          Yoopla community.
+        sub_title: step 8
+        title: "Become a mentor \U0001F920"
+      five:
+        description: "Just check how many cigarettes you should (maximally \U0001F601)
+          smokes today and when you should « ideally » smoke them. If you don’t have
+          Phil the connected case, fill out you pack with the right amount."
+        sub_title: step 5
+        title: " Your first day \U0001F973"
+      four:
+        description: Let’s go everything is ready.  To start this amazing journey
+          and change your life. Last thing you have to do is pick your start date
+          and just let you guide to freedom.
+        sub_title: step 4
+        title: "Program launc \U0001F680"
+      one:
+        description: We ask the user a series of questions to obtain their level of
+          tobacco dependence. These questions includes the user’s daily consumption,
+          their “essential” cigarettes, influencing factors (coffee, alcohol, stress,
+          etc.), motivation to quit…
+        sub_title: step 1
+        title: Smoker profile definition
+      seven:
+        description: Congratulations now you quite smoking. To maintain your high
+          level of motiviations, you will still have access to your statistiscs and
+          ongoing support.
+        sub_title: step 7
+        title: Continued Support
+      six:
+        description: During your program, you will see all your success statistics,
+          trophies, receive support fro buddies and so many other cool features !
+        sub_title: step 6
+        title: Daily program
+      three:
+        description: 'We offer substitute options to replace the desire to smoke a
+          cigarette. These substitutes depend on user preferences: games, yoga, meditation,
+          jokes, glass of water, cooking recipes…'
+        sub_title: step 3
+        title: Substitutes and Motivations
+      two:
+        description: Quitting smoking on your own is challenging, that’s why we have
+          introduced a support system function. The user can choose their own supporters
+          (family, friends, tobacco specialists). These supporters will have access
+          to the app and the possibility to send encouraging messages to the user.
+        sub_title: step 2
+        title: Support Sytem
+
+  phil_explainer:
+    header:
+      description: "Phil will give you the ultimate experience of yoopla's quiting
+        program. It's super easy, Every morning you charge Phil with one of its recharge
+        and that's it. Phil will be open (or not \U0001F609) to deliver you every
+        day the right quantity of cigarettes according to the programm."
+      link: Discover
+      sub_title: your dedicated support
+      title: Phil the connected case
