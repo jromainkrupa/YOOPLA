@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users, only: [:show]
 
-  scope '(:locale)', locale: /fr/ do
+  scope '(:locale)', locale: /en|fr/ do
     root to: 'pages#home'
     get '/method', to: 'pages#method'
     #get '/pricing', to: 'pages#pricing'
