@@ -23,3 +23,5 @@ document.addEventListener('turbolinks:load', () => {
   // initSelect2();
   mobileNavbarToggler();
 });
+
+import "controllers"
