@@ -6,6 +6,8 @@ fr:
       second: Fonctionnalités
 
   home:
+    meta_title: "yoopla - Arrêter de fumer"
+    meta_description: "yoopla est la première app conçue pour un arrêt progressif du tabac"
     coming_soon: Bientôt disponible
     get_notified: Soyez notifié lorsque l'application est disponible!
     notify_me: Inscription

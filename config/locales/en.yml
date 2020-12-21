@@ -33,6 +33,8 @@ en:
         third: ''
 
   home:
+    meta_title: "yoopla - Quit smoking"
+    meta_description: "yoopla is the first app to help you quit smoking by reducing your consumption."
     coming_soon: coming soon
     get_notified: Sign up to get notified when it’s ready.
     notify_me: Notify Me

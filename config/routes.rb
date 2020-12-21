@@ -16,7 +16,7 @@ Rails.application.routes.draw do
     get "/500", to: "errors#internal_server_error", via: :all
 
     # 301 redirect from old URLs
-    get "/old_path_to_posts/:id", to: redirect("/posts/%{id}s")
+    # match "/old_path_to_posts/:id", to: redirect("/posts/%{id}s")
 
   end
 end
