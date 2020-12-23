@@ -12,48 +12,31 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-<!--     <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p> -->
-    <!-- Structured Data -->
-     <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "url": "https://www.mirrorcommunications.com",
-      "logo": "https://s3.amazonaws.com/mirrorco/site/img/logos/logo.png",
-      "sameAs": [
-        "http://www.facebook.com/mirrorcomm",
-        "http://www.youtube.com/channel/UCXribSNT_9txMP3r76_kXxw",
-        "https://www.linkedin.com/company/mirror-communications-canada",
-        "http://twitter.com/Mirrorcomm"
-      ]
-    }
-    </script>
-    <!-- End Structured Data -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDBP97W0GZ"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-ZDBP97W0GZ');
-    </script>
-    <!-- Hotjar Tracking Code for https://www.yoopla.io -->
-    <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:2099953,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-    </script>
   </head>
 
   <body>
     <%= yield %>
   </body>
   <%= render "shared/footer" %>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDBP97W0GZ"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZDBP97W0GZ');
+  </script>
+  <!-- Hotjar Tracking Code for https://www.yoopla.io -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:2099953,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
 </html>

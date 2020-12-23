@@ -15,6 +15,8 @@ Rails.application.routes.draw do
     get "/422", to: "errors#unacceptable", via: :all
     get "/500", to: "errors#internal_server_error", via: :all
 
+    get '/sitemap.xml' => 'sitemaps#index', format: 'xml', as: :sitemap
+
     # 301 redirect from old URLs
     # match "/old_path_to_posts/:id", to: redirect("/posts/%{id}s")
 
