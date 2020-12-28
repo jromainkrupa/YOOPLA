@@ -6,8 +6,8 @@ fr:
       second: Fonctionnalités
 
   home:
-    meta_title: "yoopla - Arrêter de fumer"
-    meta_description: "yoopla est la première app conçue pour un arrêt progressif du tabac"
+    meta_title: "yoopla - Arrêter de fumer en 30 jours"
+    meta_description: "yoopla est la première app conçue pour un arrêt progressif et non brutal du tabac. Grâce à un programme personnalisé, fun et collaboratif."
     coming_soon: Bientôt disponible
     get_notified: Soyez notifié lorsque l'application est disponible!
     notify_me: Inscription
@@ -76,6 +76,8 @@ fr:
       title: Aidez la communauté à arrêter aussi
 
   features:
+    meta_title: "yoopla - Arrêter de fumer | Fonctionnalités"
+    meta_description: "On vous aide à arrêter de fumer. Chaque fonctionnalité est conçue avec 3 pilliers: simplifier votre experience, la rendre collaborative, plus personnalisé."
     header:
       made: "Chaque fonctionnalité est conçue avec 3 pilliers: simplifier votre experience, la rendre
       collaborative, plus personnalisé."
@@ -109,6 +111,8 @@ fr:
         title: Trophées
 
   method:
+    meta_title: "yoopla - Arrêter de fumer progressivement | La méthode"
+    meta_description: "Une app, un boitier connecté, votre motivation. Un programme créer pour vous par des professionnels."
     header:
       design_with: 'Un programme créer pour vous par des professionnels'
       design_with_br: ""

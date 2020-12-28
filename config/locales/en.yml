@@ -33,8 +33,8 @@ en:
         third: ''
 
   home:
-    meta_title: "yoopla - Quit smoking"
-    meta_description: "yoopla is the first app to help you quit smoking by reducing your consumption."
+    meta_title: "yoopla - quit smoking in 30 days"
+    meta_description: "yoopla is the first app to help you quit smoking by reducing your consumption of cigarette gradually."
     coming_soon: coming soon
     get_notified: Sign up to get notified when it’s ready.
     notify_me: Notify Me
@@ -45,6 +45,8 @@ en:
       and collaborative program to reduce their consumption.
 
   features:
+    meta_title: "yoopla - quit smoking | Features"
+    meta_description: "We help smokers quit smoking. Every features we built are made to simplify the quiting process. We believe in simplicity, personnalization and collaborativity."
     features:
       five:
         description: If you don't have Phil or I a friend asked you a cigarette, it
@@ -83,7 +85,7 @@ en:
         in simplicity, personnalization and collaborativity. They are our leitmotifs
         in building the best app for future non smokers.
       sub_title: The features
-      title: We help you quite smoking
+      title: We help you quit smoking
 
   main_features:
     amazing_product: We built an amazing tool to avoid the stress of quiting. You
@@ -118,6 +120,8 @@ en:
     span_steps: 3 steps
 
   method:
+    meta_title: "yoopla - quit smoking smoothly | the method"
+    meta_description: "A smooth, personalized, collaborative method. Our program designed with tabacologist is a 3 steps program: personalization, 30 days reduction, and mentoring."
     header:
       design_with: 'Our program designed with tabacologist is a 3 steps program:'
       design_with_br: personalization, 30 days reduction, and mentoring.
