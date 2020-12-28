@@ -11,10 +11,6 @@ Rails.application.routes.draw do
     resources :users, only: [:new, :create, :show]
     post 'users', to: 'users#create'
 
-    get "/404", to: "errors#not_found", via: :all
-    get "/422", to: "errors#unacceptable", via: :all
-    get "/500", to: "errors#internal_server_error", via: :all
-
     get '/sitemap.xml' => 'sitemaps#index', format: 'xml', as: :sitemap
 
     # 301 redirect from old URLs
