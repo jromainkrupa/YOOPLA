@@ -19,6 +19,10 @@ Rails.application.routes.draw do
 
     # 301 redirect from old URLs
     # match "/old_path_to_posts/:id", to: redirect("/posts/%{id}s")
-
+    constraints(host: /^(?!www\.)/i) do
+      match '(*any)' => redirect { |params, request|
+        URI.parse(request.url).tap { |uri| uri.host = "www.#{uri.host}" }.to_s
+      }
+    end
   end
 end
