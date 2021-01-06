@@ -92,6 +92,9 @@ en:
       will progressively reduce your consumption and be coached in your journey by
       friends, family and our team of experts.
     dedicated: A dedicated
+    span_steps: 3 steps
+    proven: program to release the stress of quiting.
+    qualities: Personalize - Reduce - Quit
     feature_one:
       description: We start by defining your smoker profile to develop an understanding
         of your daily habits. The next step is to establish your support system along
@@ -114,10 +117,7 @@ en:
         button \U0001F605"
       sub_title: The programm
       title: The day to day reduction.
-    link: Discover all the features
-    proven: proven program to release all the stress of quiting.
-    qualities: Smooth, stresslless and collaborative
-    span_steps: 3 steps
+    link: Discover the method
 
   method:
     meta_title: "yoopla - quit smoking smoothly | the method"
@@ -185,6 +185,6 @@ en:
         program. It's super easy, Every morning you charge Phil with one of its recharge
         and that's it. Phil will be open (or not \U0001F609) to deliver you every
         day the right quantity of cigarettes according to the programm."
-      link: Discover
+      link: Discover all the features
       sub_title: your dedicated support
       title: Phil the connected case
